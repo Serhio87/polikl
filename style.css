@@ -1,0 +1,170 @@
+h1{
+    font-size: 300%; color:brown; text-align: center; font-family: Arial, Helvetica, sans-serif; margin-top: 20px;
+}
+p{
+    font-size: 150%; text-align: center; margin-top: -5px;
+}
+a{
+    font-size: 150%; margin-left: 20px; color: rgb(238,19,19);
+}
+h2{
+    font-size: 32px; font-family: sans-serif;
+}
+h3{
+    font-size: 24px; margin-left: 200px;
+}
+marquee{
+    font-size: 32px; color: brown;
+}
+h4{
+    font-size:33px; color:darkorange; text-align: center; font-family: Verdana; margin-top: -10px; margin-left: 35px;
+}
+h6{
+    font-size:12px; margin-top: 40px;
+}
+address{
+    background-color: rgb(206, 111, 185);
+}
+h5{
+    font-size: 25px; margin-left: 25px;
+}
+ul#money{
+    list-style-image: url("../../img/ddd.jpg"); 
+}
+li#tire::before{
+    content: "- ";
+}
+li#tire{
+    list-style: none;
+    margin-left: 0px;
+}
+ol{
+    font-size: 25px; color: brown; font-family: cursive;
+}
+dt{
+    font-size: 25px; color: black; font-family:'Times New Roman', Times, serif; margin-left: 20px;
+}
+dd{
+    font-size: 20px; color: rgb(51, 24, 95); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table#lab {
+    border: 1px;
+  }
+caption {
+    font-size: 30px; color: cadetblue;
+}
+th {
+    color: white; 
+}
+em#zvezd{
+    color: rgb(243, 46, 20);
+  }
+b{
+    font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;
+}
+tr{
+    text-align: auto;
+}
+.layout {
+    width: 100% ; /* Ширина таблицы */
+}
+header { 
+    border: solid 1px black;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: grey;
+    border-radius: 15px;
+    height: 100px;
+}
+nav{
+    margin-top: 10px;
+    border: solid 1px black;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: grey;
+    border-radius: 15px;
+    float: left;
+    width: 25%;
+    height: 700px;
+    position: absolute;
+}
+section{
+    margin-top: 10px;
+    border: solid 1px black;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: grey;
+    border-radius: 15px;
+    float:none ;
+    width: 48%;
+    margin-left: 25.5%;
+    position: absolute;
+    height: 700px;
+}
+header#one{
+    margin-top: 10px;
+    border: solid 1px rgb(173, 167, 167);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    background-color: rgb(173, 167, 167);
+    border-radius: 15px;
+    margin: 10px 1.5% 24px 1.5%;
+    width: 25%;
+    height: 100px;
+    width: 96%;
+}
+article{
+    margin-top: 10px;
+    border: solid 1px rgb(173, 167, 167);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(173, 167, 167);
+    border-radius: 15px;
+    margin: 0 1.5% 24px 1.5%;
+    width: 25%;
+    height: 350px;
+    width: 96%;
+}
+footer#one{
+    margin-top: 10px;
+    border: solid 1px rgb(173, 167, 167);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(173, 167, 167);
+    border-radius: 15px;
+    margin: 0 1.5% 24px 1.5%;
+    width: 25%;
+    height: 100px;
+    width: 96%;
+}
+aside{
+    margin-top: 10px;
+    border: solid 1px black;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: grey;
+    border-radius: 15px;
+    float: right;
+    width: 25%;
+    height: 700px;
+    position:fixed right ;
+}
+footer{
+  margin-top: 720px;
+  bottom: 10px;
+  width: 100%;
+  height: 75px;
+  background-color: grey;
+  border-radius: 15px;
+  border: solid 1px black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+}
